@@ -1,3 +1,6 @@
+// Part1.c file - Assignment 2
+// Due Date: 15th March
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

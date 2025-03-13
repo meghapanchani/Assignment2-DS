@@ -1,3 +1,6 @@
+// Main.c file - Assignment 2
+// Due Date: 15th March
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -28,9 +31,9 @@ int main()
         return 1;                                // Exit the program if memory allocation fails.
     }
 
-    printf("Inserting %d random characters into BST: ", numChars);
+    printf("Inserting %d random characters BST: ", numChars);
 
-    // Insert the randomly generated characters into the BST.
+    //BST will be Insert in the randomly generated characters.
     for (int i = 0; i < numChars; i++)
     {
         char randomChar = getRandomChar();       // Generate a random character.
@@ -40,11 +43,11 @@ int main()
     }
 
     // Print the tree's contents in sorted order using in-order traversal.
-    printf("\n\nSorted characters (in-order traversal): ");
+    printf("\n\nSorted characters tranversal order ");
     inOrder(root);
 
     // Print the total number of nodes in the BST.
-    printf("\n\nTotal number of nodes: %d", countNodes(root));
+    printf("\n\nTotal no. of nodes: %d", countNodes(root));
 
     // Print the height of the BST.
     printf("\nTree height: %d\n", treeHeight(root));
